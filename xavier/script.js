@@ -1,5 +1,5 @@
 function calculDiff() {
-    let deconfinement = new Date(2020, 05, 11, 00, 00, 0)
+    let deconfinement = new Date(2020, 04, 11, 00, 00, 0)
     let maintenant = new Date()
     let diff = {}
     diff.total = deconfinement - maintenant
